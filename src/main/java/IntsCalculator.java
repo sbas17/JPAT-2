@@ -23,7 +23,7 @@ public class IntsCalculator implements Ints {
     public int pow(int a, int b) {
         return (int) target.newFormula().addOperand(a)
                 .addOperand(b)
-                .calculate(Calculator.Operation.MULT)
+                .calculate(Calculator.Operation.POW)
                 .result();
     }
 }
